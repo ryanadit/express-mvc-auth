@@ -4,7 +4,7 @@ dotenv.config()
 const HOST = process.env.DB_HOST
 const USER = process.env.DB_USER
 const PASSWORD = process.env.DB_PASSWORD
-const DB = process.env.DB_NAME
+const DB = process.env.DB_DATABASE
 const port = process.env.DB_PORT
 const dialect = "mysql"
 const pool = {
